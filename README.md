@@ -1,24 +1,31 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Connor Wilson - Computer Science student focused on secure software and cybersecurity" width="900">
+  <img src="./assets/banner.svg" alt="Connor Wilson - Computer Science student focused on cybersecurity, software engineering, and automation" width="900">
 </p>
 
 ## About
 
-I'm a Computer Science student focused on secure software development, detection engineering, networking, and practical security tooling. I like building small, reliable tools that make systems easier to understand, automate, and defend.
+I'm Connor Wilson, a Computer Science student interested in cybersecurity, systems, and software engineering. I like projects that turn messy workflows into clear, repeatable tools.
 
-## Featured Work
+My work leans practical: readable code, useful automation, observability, and defensive thinking.
 
-- **Security Labs** - Hands-on experiments around detection logic, malware behavior, and network fundamentals.
-- **Automation Tools** - Scripts and utilities for repeatable development, analysis, and workflow cleanup.
-- **Software Projects** - Coursework and personal builds focused on clean implementation and practical problem solving.
+## Work Areas
 
-## Core Tools
+- **Blue-team labs** - Alert logic, behavior notes, triage practice, and incident workflow exercises.
+- **Python utilities** - Small scripts for analysis, cleanup, and repeatable operational tasks.
+- **Application work** - Java, web, and SQL coursework with simple structure and maintainable code.
+- **Systems practice** - Linux, networking, Git, and database-backed project patterns.
 
-Python | Java | Linux | Git | Networking | Automation | Web Development | Security Fundamentals
+## Current Interests
 
-## Current Focus
+Detection Engineering | Blue Team Security | Incident Response | Malware Behavior Analysis | Secure Software Development | Linux Systems | Networking | Cloud Security
 
-Detection Engineering | Malware Behavior Analysis | Cloud Security
+## Languages
+
+Python | Java | JavaScript | HTML/CSS | SQL
+
+## Technologies
+
+Git | Linux | VS Code | GitHub | Networking | Security Tools | SQL Server concepts
 
 ## Connect
 
