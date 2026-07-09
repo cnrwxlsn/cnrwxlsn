@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/React-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <!--img src="https://img.shields.io/badge/Node.js-1F2937?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"-->
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS">
+  <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
   <img src="https://img.shields.io/badge/SQL-0F766E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
