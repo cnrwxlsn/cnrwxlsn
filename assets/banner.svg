@@ -1,17 +1,10 @@
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="50%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
-
-    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#22c55e"/>
-    </linearGradient>
-
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
@@ -19,74 +12,9 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <style>
-      .mono { font-family: Consolas, Monaco, 'Courier New', monospace; }
-      .ui { font-family: Segoe UI, Arial, sans-serif; }
-
-      .blink { animation: blink 1s steps(2, start) infinite; }
-      .pulse { animation: pulse 1.8s ease-in-out infinite; }
-      .scanline { animation: scan 3.5s linear infinite; }
-      .packetOne { animation: packetOne 2.4s linear infinite; }
-      .packetTwo { animation: packetTwo 3.1s linear infinite; }
-      .packetThree { animation: packetThree 2.8s linear infinite; }
-      .barOne { animation: barOne 2.6s ease-in-out infinite; }
-      .barTwo { animation: barTwo 2.1s ease-in-out infinite; }
-      .barThree { animation: barThree 2.8s ease-in-out infinite; }
-
-      @keyframes blink {
-        50% { opacity: 0; }
-      }
-
-      @keyframes pulse {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 1; }
-      }
-
-      @keyframes scan {
-        0% { transform: translateY(-230px); opacity: 0; }
-        15% { opacity: 0.75; }
-        85% { opacity: 0.75; }
-        100% { transform: translateY(260px); opacity: 0; }
-      }
-
-      @keyframes packetOne {
-        0% { transform: translate(0px, 0px); opacity: 0; }
-        10% { opacity: 1; }
-        100% { transform: translate(148px, 4px); opacity: 0; }
-      }
-
-      @keyframes packetTwo {
-        0% { transform: translate(148px, 4px); opacity: 0; }
-        10% { opacity: 1; }
-        100% { transform: translate(66px, 48px); opacity: 0; }
-      }
-
-      @keyframes packetThree {
-        0% { transform: translate(72px, -22px); opacity: 0; }
-        10% { opacity: 1; }
-        100% { transform: translate(66px, 48px); opacity: 0; }
-      }
-
-      @keyframes barOne {
-        0%, 100% { width: 88px; }
-        50% { width: 132px; }
-      }
-
-      @keyframes barTwo {
-        0%, 100% { width: 118px; }
-        50% { width: 76px; }
-      }
-
-      @keyframes barThree {
-        0%, 100% { width: 64px; }
-        50% { width: 145px; }
-      }
-    </style>
   </defs>
 
-  <rect width="900" height="260" rx="24" fill="url(#backgroundGradient)"/>
-
+  <rect width="900" height="260" rx="24" fill="url(#bg)"/>
   <rect x="20" y="20" width="860" height="220" rx="16" fill="#020617" stroke="#1e293b" stroke-width="2"/>
   <rect x="20" y="20" width="860" height="38" rx="16" fill="#0f172a"/>
   <rect x="20" y="46" width="860" height="12" fill="#0f172a"/>
@@ -95,33 +23,41 @@
   <circle cx="66" cy="39" r="5" fill="#f59e0b"/>
   <circle cx="84" cy="39" r="5" fill="#22c55e"/>
 
-  <text x="112" y="44" fill="#94a3b8" font-size="14" class="mono">
+  <text x="112" y="44" fill="#94a3b8" font-size="14" font-family="Consolas, Monaco, monospace">
     security-dashboard.local / profile
   </text>
 
-  <text x="40" y="88" fill="#f8fafc" font-size="28" font-weight="700" class="ui">
+  <text x="40" y="88" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">
     Connor Wilson
   </text>
 
-  <text x="40" y="116" fill="#38bdf8" font-size="15" class="mono">
-    connor@github:~$ <tspan fill="#e2e8f0">monitor --profile --secure</tspan><tspan class="blink">_</tspan>
+  <text x="40" y="116" fill="#38bdf8" font-size="15" font-family="Consolas, Monaco, monospace">
+    connor@github:~$
   </text>
 
-  <text x="40" y="150" fill="#94a3b8" font-size="15" class="ui">
+  <text x="190" y="116" fill="#e2e8f0" font-size="15" font-family="Consolas, Monaco, monospace">
+    monitor --profile --secure
+  </text>
+
+  <rect x="395" y="104" width="8" height="17" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="40" y="150" fill="#94a3b8" font-size="15" font-family="Segoe UI, Arial, sans-serif">
     Computer Science • Cybersecurity • Software Development
   </text>
 
   <rect x="40" y="178" width="190" height="34" rx="17" fill="#0f172a" stroke="#38bdf8"/>
-  <text x="62" y="200" fill="#dbeafe" font-size="14" class="mono">VISITORS: LIVE</text>
+  <text x="62" y="200" fill="#dbeafe" font-size="14" font-family="Consolas, Monaco, monospace">VISITORS: LIVE</text>
 
   <rect x="245" y="178" width="180" height="34" rx="17" fill="#0f172a" stroke="#22c55e"/>
-  <text x="272" y="200" fill="#dcfce7" font-size="14" class="mono">STATUS: ONLINE</text>
+  <text x="272" y="200" fill="#dcfce7" font-size="14" font-family="Consolas, Monaco, monospace">STATUS: ONLINE</text>
 
   <rect x="440" y="178" width="190" height="34" rx="17" fill="#0f172a" stroke="#a78bfa"/>
-  <text x="468" y="200" fill="#ede9fe" font-size="14" class="mono">MODE: DEFENSE</text>
+  <text x="468" y="200" fill="#ede9fe" font-size="14" font-family="Consolas, Monaco, monospace">MODE: DEFENSE</text>
 
   <g transform="translate(650 78)">
-    <text x="0" y="0" fill="#94a3b8" font-size="13" class="mono">NETWORK</text>
+    <text x="0" y="0" fill="#94a3b8" font-size="13" font-family="Consolas, Monaco, monospace">NETWORK</text>
 
     <line x1="20" y1="44" x2="92" y2="22" stroke="#334155" stroke-width="2"/>
     <line x1="92" y1="22" x2="168" y2="48" stroke="#334155" stroke-width="2"/>
@@ -129,203 +65,48 @@
     <line x1="86" y1="92" x2="168" y2="48" stroke="#334155" stroke-width="2"/>
     <line x1="92" y1="22" x2="86" y2="92" stroke="#334155" stroke-width="2"/>
 
-    <circle class="pulse" cx="20" cy="44" r="7" fill="#38bdf8" filter="url(#glow)"/>
-    <circle class="pulse" cx="92" cy="22" r="7" fill="#a78bfa" filter="url(#glow)"/>
-    <circle class="pulse" cx="168" cy="48" r="7" fill="#22c55e" filter="url(#glow)"/>
-    <circle class="pulse" cx="86" cy="92" r="7" fill="#38bdf8" filter="url(#glow)"/>
+    <circle cx="20" cy="44" r="7" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="92" cy="22" r="7" fill="#a78bfa" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="168" cy="48" r="7" fill="#22c55e" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="86" cy="92" r="7" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
 
-    <circle class="packetOne" cx="20" cy="44" r="4" fill="#f8fafc" filter="url(#glow)"/>
-    <circle class="packetTwo" cx="20" cy="44" r="4" fill="#f8fafc" filter="url(#glow)"/>
-    <circle class="packetThree" cx="20" cy="44" r="4" fill="#f8fafc" filter="url(#glow)"/>
+    <circle r="4" fill="#f8fafc" filter="url(#glow)">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M20 44 L92 22 L168 48"/>
+    </circle>
+
+    <circle r="4" fill="#f8fafc" filter="url(#glow)">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M20 44 L86 92 L168 48"/>
+    </circle>
   </g>
 
   <g transform="translate(650 190)">
-    <text x="0" y="0" fill="#94a3b8" font-size="13" class="mono">SIGNAL</text>
+    <text x="0" y="0" fill="#94a3b8" font-size="13" font-family="Consolas, Monaco, monospace">SIGNAL</text>
 
     <rect x="0" y="14" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="barOne" x="0" y="14" height="10" rx="5" fill="#38bdf8"/>
+    <rect x="0" y="14" width="90" height="10" rx="5" fill="#38bdf8">
+      <animate attributeName="width" values="90;135;90" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
 
     <rect x="0" y="34" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="barTwo" x="0" y="34" height="10" rx="5" fill="#a78bfa"/>
+    <rect x="0" y="34" width="120" height="10" rx="5" fill="#a78bfa">
+      <animate attributeName="width" values="120;75;120" dur="2.1s" repeatCount="indefinite"/>
+    </rect>
 
     <rect x="0" y="54" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="barThree" x="0" y="54" height="10" rx="5" fill="#22c55e"/>
+    <rect x="0" y="54" width="65" height="10" rx="5" fill="#22c55e">
+      <animate attributeName="width" values="65;145;65" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <g opacity="0.2">
-    <line x1="40" y1="230" x2="850" y2="230" stroke="#38bdf8" stroke-width="1"/>
-    <line x1="40" y1="70" x2="850" y2="70" stroke="#38bdf8" stroke-width="1"/>
-  </g>
-
-  <rect class="scanline" x="20" y="20" width="860" height="26" fill="#38bdf8" opacity="0.08"/>
-</svg><svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#020617"/>
-    </linearGradient>
-
-    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#22c55e"/>
-    </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <style>
-      .mono {
-        font-family: Consolas, Monaco, 'Courier New', monospace;
-      }
-
-      .ui {
-        font-family: Segoe UI, Arial, sans-serif;
-      }
-
-      .blink {
-        animation: blink 1s steps(2, start) infinite;
-      }
-
-      .pulse {
-        animation: pulse 1.8s ease-in-out infinite;
-      }
-
-      .packet {
-        animation: movePacket 2.4s linear infinite;
-      }
-
-      .scanline {
-        animation: scan 3.5s linear infinite;
-      }
-
-      .bar1 {
-        animation: barOne 2.6s ease-in-out infinite;
-      }
-
-      .bar2 {
-        animation: barTwo 2.1s ease-in-out infinite;
-      }
-
-      .bar3 {
-        animation: barThree 2.8s ease-in-out infinite;
-      }
-
-      @keyframes blink {
-        50% { opacity: 0; }
-      }
-
-      @keyframes pulse {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 1; }
-      }
-
-      @keyframes movePacket {
-        0% { transform: translateX(0); opacity: 0; }
-        10% { opacity: 1; }
-        90% { opacity: 1; }
-        100% { transform: translateX(220px); opacity: 0; }
-      }
-
-      @keyframes scan {
-        0% { transform: translateY(-230px); opacity: 0; }
-        15% { opacity: 0.8; }
-        85% { opacity: 0.8; }
-        100% { transform: translateY(260px); opacity: 0; }
-      }
-
-      @keyframes barOne {
-        0%, 100% { width: 88px; }
-        50% { width: 132px; }
-      }
-
-      @keyframes barTwo {
-        0%, 100% { width: 118px; }
-        50% { width: 76px; }
-      }
-
-      @keyframes barThree {
-        0%, 100% { width: 64px; }
-        50% { width: 145px; }
-      }
-    </style>
-  </defs>
-
-  <rect width="900" height="260" rx="24" fill="url(#backgroundGradient)"/>
-
-  <rect x="20" y="20" width="860" height="220" rx="16" fill="#020617" stroke="#1e293b" stroke-width="2"/>
-  <rect x="20" y="20" width="860" height="38" rx="16" fill="#0f172a"/>
-  <rect x="20" y="46" width="860" height="12" fill="#0f172a"/>
-
-  <circle cx="48" cy="39" r="5" fill="#ef4444"/>
-  <circle cx="66" cy="39" r="5" fill="#f59e0b"/>
-  <circle cx="84" cy="39" r="5" fill="#22c55e"/>
-
-  <text x="112" y="44" fill="#94a3b8" font-size="14" class="mono">
-    security-dashboard.local / profile
-  </text>
-
-  <text x="40" y="88" fill="#f8fafc" font-size="28" font-weight="700" class="ui">
-    Connor Wilson
-  </text>
-
-  <text x="40" y="116" fill="#38bdf8" font-size="15" class="mono">
-    connor@github:~$ <tspan fill="#e2e8f0">monitor --profile --secure</tspan><tspan class="blink">_</tspan>
-  </text>
-
-  <text x="40" y="150" fill="#94a3b8" font-size="15" class="ui">
-    Computer Science • Cybersecurity • Software Development
-  </text>
-
-  <rect x="40" y="178" width="170" height="34" rx="17" fill="#0f172a" stroke="#38bdf8"/>
-  <text x="66" y="200" fill="#dbeafe" font-size="14" class="mono">THREATS: 0</text>
-
-  <rect x="225" y="178" width="180" height="34" rx="17" fill="#0f172a" stroke="#22c55e"/>
-  <text x="252" y="200" fill="#dcfce7" font-size="14" class="mono">STATUS: ONLINE</text>
-
-  <rect x="420" y="178" width="190" height="34" rx="17" fill="#0f172a" stroke="#a78bfa"/>
-  <text x="448" y="200" fill="#ede9fe" font-size="14" class="mono">MODE: DEFENSE</text>
-
-  <g transform="translate(650 78)">
-    <text x="0" y="0" fill="#94a3b8" font-size="13" class="mono">NETWORK</text>
-
-    <line x1="20" y1="44" x2="92" y2="22" stroke="#334155" stroke-width="2"/>
-    <line x1="92" y1="22" x2="168" y2="48" stroke="#334155" stroke-width="2"/>
-    <line x1="20" y1="44" x2="86" y2="92" stroke="#334155" stroke-width="2"/>
-    <line x1="86" y1="92" x2="168" y2="48" stroke="#334155" stroke-width="2"/>
-    <line x1="92" y1="22" x2="86" y2="92" stroke="#334155" stroke-width="2"/>
-
-    <circle class="pulse" cx="20" cy="44" r="7" fill="#38bdf8" filter="url(#glow)"/>
-    <circle class="pulse" cx="92" cy="22" r="7" fill="#a78bfa" filter="url(#glow)"/>
-    <circle class="pulse" cx="168" cy="48" r="7" fill="#22c55e" filter="url(#glow)"/>
-    <circle class="pulse" cx="86" cy="92" r="7" fill="#38bdf8" filter="url(#glow)"/>
-
-    <circle class="packet" cx="20" cy="44" r="4" fill="#f8fafc" filter="url(#glow)"/>
-  </g>
-
-  <g transform="translate(650 190)">
-    <text x="0" y="0" fill="#94a3b8" font-size="13" class="mono">SIGNAL</text>
-
-    <rect x="0" y="14" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="bar1" x="0" y="14" height="10" rx="5" fill="#38bdf8"/>
-
-    <rect x="0" y="34" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="bar2" x="0" y="34" height="10" rx="5" fill="#a78bfa"/>
-
-    <rect x="0" y="54" width="160" height="10" rx="5" fill="#1e293b"/>
-    <rect class="bar3" x="0" y="54" height="10" rx="5" fill="#22c55e"/>
-  </g>
-
-  <g opacity="0.2">
-    <line x1="40" y1="230" x2="850" y2="230" stroke="#38bdf8" stroke-width="1"/>
-    <line x1="40" y1="70" x2="850" y2="70" stroke="#38bdf8" stroke-width="1"/>
-  </g>
-
-  <rect class="scanline" x="20" y="20" width="860" height="26" fill="#38bdf8" opacity="0.08"/>
+  <rect x="20" y="20" width="860" height="26" fill="#38bdf8" opacity="0.08">
+    <animate attributeName="y" values="20;240;20" dur="4s" repeatCount="indefinite"/>
+  </rect>
 </svg>
