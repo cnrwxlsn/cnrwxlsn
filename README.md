@@ -11,7 +11,8 @@
   <img src="https://img.shields.io/badge/React-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <!--img src="https://img.shields.io/badge/Node.js-1F2937?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"-->
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/HTML-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <!--img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS"-->
   <img src="https://img.shields.io/badge/SQL-0F766E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
@@ -34,14 +35,14 @@ My work leans practical: readable code, useful automation, observability, and de
 ## Current Interests
 
 <p>
-  <img src="https://img.shields.io/badge/-Detection%20Engineering-0F172A?style=flat-square" alt="Detection Engineering">
-  <img src="https://img.shields.io/badge/-Blue%20Team-0F172A?style=flat-square" alt="Blue Team Security">
-  <img src="https://img.shields.io/badge/-Incident%20Response-111827?style=flat-square" alt="Incident Response">
-  <img src="https://img.shields.io/badge/-Malware%20Behavior-1E293B?style=flat-square" alt="Malware Behavior Analysis">
-  <img src="https://img.shields.io/badge/-Secure%20Code-0F172A?style=flat-square" alt="Secure Software Development">
-  <img src="https://img.shields.io/badge/-Linux%20Systems-111827?style=flat-square" alt="Linux Systems">
-  <img src="https://img.shields.io/badge/-Networking-0F172A?style=flat-square" alt="Networking">
-  <img src="https://img.shields.io/badge/-Cloud%20Security-1E293B?style=flat-square" alt="Cloud Security">
+  <img src="https://img.shields.io/badge/-Detection%20Engineering-16A34A?style=flat-square" alt="Detection Engineering">
+  <img src="https://img.shields.io/badge/-Blue%20Team-16A34A?style=flat-square" alt="Blue Team Security">
+  <img src="https://img.shields.io/badge/-Incident%20Response-16A34A?style=flat-square" alt="Incident Response">
+  <img src="https://img.shields.io/badge/-Malware%20Behavior-16A34A?style=flat-square" alt="Malware Behavior Analysis">
+  <img src="https://img.shields.io/badge/-Secure%20Code-16A34A?style=flat-square" alt="Secure Software Development">
+  <img src="https://img.shields.io/badge/-Linux%20Systems-16A34A?style=flat-square" alt="Linux Systems">
+  <img src="https://img.shields.io/badge/-Networking-16A34A?style=flat-square" alt="Networking">
+  <img src="https://img.shields.io/badge/-Cloud%20Security-16A34A?style=flat-square" alt="Cloud Security">
 </p>
 
 ## Technologies
