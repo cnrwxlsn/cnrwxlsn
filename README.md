@@ -34,14 +34,14 @@ My work leans practical: readable code, useful automation, observability, and de
 ## Current Interests
 
 <p>
-  <img src="https://img.shields.io/badge/-Detection%20Engineering-0EA5E9?style=flat-square" alt="Detection Engineering">
-  <img src="https://img.shields.io/badge/-Blue%20Team-22C55E?style=flat-square" alt="Blue Team Security">
-  <img src="https://img.shields.io/badge/-Incident%20Response-38BDF8?style=flat-square" alt="Incident Response">
-  <img src="https://img.shields.io/badge/-Malware%20Behavior-A78BFA?style=flat-square" alt="Malware Behavior Analysis">
-  <img src="https://img.shields.io/badge/-Secure%20Code-14B8A6?style=flat-square" alt="Secure Software Development">
-  <img src="https://img.shields.io/badge/-Linux%20Systems-64748B?style=flat-square" alt="Linux Systems">
-  <img src="https://img.shields.io/badge/-Networking-0891B2?style=flat-square" alt="Networking">
-  <img src="https://img.shields.io/badge/-Cloud%20Security-6366F1?style=flat-square" alt="Cloud Security">
+  <img src="https://img.shields.io/badge/-Detection%20Engineering-0F172A?style=flat-square" alt="Detection Engineering">
+  <img src="https://img.shields.io/badge/-Blue%20Team-0F172A?style=flat-square" alt="Blue Team Security">
+  <img src="https://img.shields.io/badge/-Incident%20Response-111827?style=flat-square" alt="Incident Response">
+  <img src="https://img.shields.io/badge/-Malware%20Behavior-1E293B?style=flat-square" alt="Malware Behavior Analysis">
+  <img src="https://img.shields.io/badge/-Secure%20Code-0F172A?style=flat-square" alt="Secure Software Development">
+  <img src="https://img.shields.io/badge/-Linux%20Systems-111827?style=flat-square" alt="Linux Systems">
+  <img src="https://img.shields.io/badge/-Networking-0F172A?style=flat-square" alt="Networking">
+  <img src="https://img.shields.io/badge/-Cloud%20Security-1E293B?style=flat-square" alt="Cloud Security">
 </p>
 
 ## Technologies
