@@ -82,27 +82,29 @@
     <text x="0" y="346" class="terminal-text good" font-size="15">&gt; cloud, network, and secure coding basics</text>
 
     <text x="530" y="0" class="terminal-text prompt" font-size="15">$ projects</text>
-    <text x="530" y="34" class="terminal-text body" font-size="15">defense-labs/</text>
-    <text x="530" y="56" class="terminal-text muted" font-size="13">notes, detections, writeups</text>
+    <text x="530" y="34" class="terminal-text body" font-size="15">mobile-map-app/</text>
+    <text x="530" y="56" class="terminal-text muted" font-size="13">SwiftUI, MapKit, local GPS alerts</text>
 
-    <text x="530" y="94" class="terminal-text body" font-size="15">python-utils/</text>
-    <text x="530" y="116" class="terminal-text muted" font-size="13">small utilities and cleanup scripts</text>
+    <text x="530" y="92" class="terminal-text body" font-size="15">systems-tools/</text>
+    <text x="530" y="114" class="terminal-text muted" font-size="13">Unix-style CLIs and process workflows</text>
 
-    <text x="530" y="154" class="terminal-text body" font-size="15">app-builds/</text>
-    <text x="530" y="176" class="terminal-text muted" font-size="13">Java, web, SQL coursework</text>
+    <text x="530" y="150" class="terminal-text body" font-size="15">data-backed-apps/</text>
+    <text x="530" y="172" class="terminal-text muted" font-size="13">C#, entity models, SQL storage</text>
 
-    <text x="530" y="232" class="terminal-text prompt" font-size="15">$ status</text>
-    <text x="530" y="264" class="terminal-text body" font-size="15">learning in public</text>
-    <text x="530" y="286" class="terminal-text body" font-size="15">documenting what I build</text>
-    <text x="530" y="328" class="terminal-text good" font-size="15">READY...</text>
-    <rect x="600" y="314" width="5" height="15" fill="#38bdf8">
+    <text x="530" y="208" class="terminal-text body" font-size="15">browser-automation/</text>
+    <text x="530" y="230" class="terminal-text muted" font-size="13">Python scripts, repeatable workflows</text>
+
+    <text x="530" y="286" class="terminal-text prompt" font-size="15">$ status</text>
+    <text x="530" y="318" class="terminal-text body" font-size="15">building, testing, documenting</text>
+    <text x="530" y="360" class="terminal-text good" font-size="15">READY...</text>
+    <rect x="600" y="346" width="5" height="15" fill="#38bdf8">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <!-- Monitoring dashboard shell -->
-  <g id="monitoring-dashboard" transform="translate(36 450)">
-    <rect x="0" y="0" width="828" height="132" rx="12" fill="url(#panelGradient)" stroke="#1e293b" stroke-width="2"/>
+  <g id="monitoring-dashboard" transform="translate(36 470)">
+    <rect x="0" y="0" width="828" height="140" rx="12" fill="url(#panelGradient)" stroke="#1e293b" stroke-width="2"/>
     <text x="20" y="30" class="terminal-text muted" font-size="13">live_monitor</text>
     <line x1="20" y1="42" x2="808" y2="42" stroke="#1e293b" stroke-width="2"/>
 

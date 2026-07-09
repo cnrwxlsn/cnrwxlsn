@@ -10,10 +10,11 @@ My work leans practical: readable code, useful automation, observability, and de
 
 ## Work Areas
 
+- **Mobile mapping** - SwiftUI, MapKit, CoreLocation, local data, proximity checks, alerts, and privacy-minded logging.
+- **Systems tooling** - Unix-style command-line utilities using processes, pipes, compression, and threaded execution.
+- **Data-backed apps** - C#/.NET projects with entity models, migrations, and SQL-backed storage.
+- **Browser automation** - Python scripts for repeatable browser workflows, testing helpers, and cleanup tasks.
 - **Blue-team labs** - Alert logic, behavior notes, triage practice, and incident workflow exercises.
-- **Python utilities** - Small scripts for analysis, cleanup, and repeatable operational tasks.
-- **Application work** - Java, web, and SQL coursework with simple structure and maintainable code.
-- **Systems practice** - Linux, networking, Git, and database-backed project patterns.
 
 ## Current Interests
 
@@ -21,11 +22,11 @@ Detection Engineering | Blue Team Security | Incident Response | Malware Behavio
 
 ## Languages
 
-Python | Java | JavaScript | HTML/CSS | SQL
+Python | Swift | C | C# | Java | JavaScript | HTML/CSS | SQL
 
 ## Technologies
 
-Git | Linux | VS Code | GitHub | Networking | Security Tools | SQL Server concepts
+Git | Linux | VS Code | GitHub | SwiftUI | MapKit | CoreLocation | Playwright | EF Core | SQL Server
 
 ## Connect
 
