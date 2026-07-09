@@ -67,7 +67,7 @@
     <circle cx="648" cy="-4" r="5" fill="#94a3b8" filter="url(#footerGlow)">
       <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="664" y="0" class="terminal-text body" font-size="13">lab-notes</text>
+    <text x="664" y="0" class="terminal-text body" font-size="13">analysis-log</text>
     <text x="758" y="0" class="terminal-text muted" font-size="13">syncing</text>
   </g>
 
