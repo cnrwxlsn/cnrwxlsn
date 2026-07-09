@@ -1,6 +1,17 @@
 <p align="center">
   <img src="./assets/banner.svg" alt="Connor Wilson - Computer Science student focused on cybersecurity, software engineering, and automation" width="900">
 </p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/C-555555?style=for-the-badge&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/Java-7A1F1F?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/JavaScript-B59F00?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
+  <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS">
+  <img src="https://img.shields.io/badge/SQL-0F766E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+</p>
+
 
 ## About
 
@@ -20,20 +31,6 @@ My work leans practical: readable code, useful automation, observability, and de
 
 Detection Engineering | Blue Team Security | Incident Response | Malware Behavior Analysis | Secure Software Development | Linux Systems | Networking | Cloud Security
 
-## Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C-555555?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/Java-7A1F1F?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/JavaScript-B59F00?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS">
-  <img src="https://img.shields.io/badge/SQL-0F766E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-</p>
-
-Python | Swift | C | C# | Java | JavaScript | HTML/CSS | SQL
 
 ## Technologies
 
