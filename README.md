@@ -1,4 +1,4 @@
-## Hi, I'm Connor👋
+<!--## Hi, I'm Connor👋 -->
 <p align="center">
   <img src="./assets/banner.svg" alt="Connor Wilson Security Dashboard Banner" width="900">
 </p>
