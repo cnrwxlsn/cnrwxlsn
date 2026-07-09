@@ -117,7 +117,15 @@
       <line x1="88" y1="22" x2="146" y2="48" stroke="#334155" stroke-width="2"/>
       <line x1="146" y1="48" x2="214" y2="24" stroke="#334155" stroke-width="2"/>
       <line x1="148" y1="4" x2="146" y2="48" stroke="#334155" stroke-width="2"/>
+      <line x1="58" y1="44" x2="88" y2="22" stroke="#334155" stroke-width="2"/>
+      <line x1="58" y1="44" x2="146" y2="48" stroke="#334155" stroke-width="2"/>
+      <line x1="214" y1="24" x2="252" y2="8" stroke="#334155" stroke-width="2"/>
+      <line x1="214" y1="24" x2="252" y2="46" stroke="#334155" stroke-width="2"/>
+      <line x1="252" y1="8" x2="252" y2="46" stroke="#334155" stroke-width="2"/>
 
+      <circle cx="58" cy="44" r="6" fill="#64748b" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
       <circle cx="88" cy="22" r="6" fill="#38bdf8" filter="url(#softGlow)">
         <animate attributeName="opacity" values="0.45;1;0.45" dur="1.8s" repeatCount="indefinite"/>
       </circle>
@@ -130,12 +138,21 @@
       <circle cx="146" cy="48" r="6" fill="#38bdf8" filter="url(#softGlow)">
         <animate attributeName="opacity" values="1;0.45;1" dur="2.5s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="252" cy="8" r="6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="252" cy="46" r="6" fill="#94a3b8" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.45;1" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
 
       <circle r="3.5" fill="#f8fafc" filter="url(#softGlow)">
-        <animateMotion dur="2.7s" repeatCount="indefinite" path="M88 22 L148 4 L214 24"/>
+        <animateMotion dur="2.7s" repeatCount="indefinite" path="M58 44 L88 22 L148 4 L214 24 L252 8"/>
       </circle>
       <circle r="3.5" fill="#f8fafc" filter="url(#softGlow)">
-        <animateMotion dur="3.1s" repeatCount="indefinite" path="M88 22 L146 48 L214 24"/>
+        <animateMotion dur="3.1s" repeatCount="indefinite" path="M58 44 L146 48 L214 24 L252 46"/>
+      </circle>
+      <circle r="3" fill="#f8fafc" filter="url(#softGlow)">
+        <animateMotion dur="3.6s" repeatCount="indefinite" path="M148 4 L146 48 L214 24 L252 8 L252 46"/>
       </circle>
     </g>
 
