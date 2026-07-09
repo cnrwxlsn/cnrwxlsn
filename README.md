@@ -3,6 +3,10 @@
   <img src="./assets/banner.svg" alt="Connor Wilson Security Dashboard Banner" width="900">
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=cnrwxlsn&label=VISITORS&color=0891b2&style=for-the-badge" alt="Visitor Counter">
+</p>
+
 <!--
 **cnrwxlsn/cnrwxlsn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
