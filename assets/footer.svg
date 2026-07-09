@@ -40,7 +40,7 @@
 
   <!-- Terminal status line -->
   <text x="54" y="50" class="terminal-text prompt" font-size="15">connor@github:~$ tail -f work.log</text>
-  <rect x="372" y="37" width="5" height="15" fill="#38bdf8">
+  <rect x="352" y="37" width="5" height="15" fill="#38bdf8">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 
