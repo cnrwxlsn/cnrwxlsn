@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/JavaScript-B59F00?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-1F2937?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
   <img src="https://img.shields.io/badge/HTML/CSS-334155?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS">
   <img src="https://img.shields.io/badge/SQL-0F766E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
@@ -23,6 +25,7 @@ My work leans practical: readable code, useful automation, observability, and de
 ## Work Areas
 
 - **Mobile mapping** - SwiftUI, MapKit, CoreLocation, local data, proximity checks, alerts, and privacy-minded logging.
+- **Full-stack web** - React/Vite interfaces backed by Node.js and Express APIs.
 - **Systems tooling** - Unix-style command-line utilities using processes, pipes, compression, and threaded execution.
 - **Data-backed apps** - C#/.NET projects with entity models, migrations, and SQL-backed storage.
 - **Browser automation** - Python scripts for repeatable browser workflows, testing helpers, and cleanup tasks.
@@ -35,7 +38,7 @@ Detection Engineering | Blue Team Security | Incident Response | Malware Behavio
 
 ## Technologies
 
-Git | Linux | VS Code | GitHub | SwiftUI | MapKit | CoreLocation | Playwright | EF Core | SQL Server
+Git | Linux | VS Code | GitHub | React | Node.js | Express | Vite | SwiftUI | MapKit | CoreLocation | Playwright | EF Core | SQL Server
 
 ## Connect
 

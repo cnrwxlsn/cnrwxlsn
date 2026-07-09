@@ -73,8 +73,8 @@
     <text x="0" y="182" class="terminal-text body" font-size="15">Linux, networks, blue-team practice.</text>
 
     <text x="0" y="208" class="terminal-text prompt" font-size="15">$ ls skills/</text>
-    <text x="0" y="234" class="terminal-text body" font-size="15">python/      java/        javascript/  html-css/</text>
-    <text x="0" y="256" class="terminal-text body" font-size="15">sql/         linux/       git/         networking/</text>
+    <text x="0" y="234" class="terminal-text body" font-size="15">python/      java/        javascript/  react/</text>
+    <text x="0" y="256" class="terminal-text body" font-size="15">node/        swift/       c-cpp/       sql/</text>
 
     <text x="0" y="276" class="terminal-text prompt" font-size="15">$ current_focus</text>
     <text x="0" y="302" class="terminal-text good" font-size="15">&gt; signal quality, triage, and alert logic</text>
@@ -91,8 +91,8 @@
     <text x="530" y="150" class="terminal-text body" font-size="15">data-backed-apps/</text>
     <text x="530" y="172" class="terminal-text muted" font-size="13">C#, entity models, SQL storage</text>
 
-    <text x="530" y="208" class="terminal-text body" font-size="15">browser-automation/</text>
-    <text x="530" y="230" class="terminal-text muted" font-size="13">Python scripts, repeatable workflows</text>
+    <text x="530" y="208" class="terminal-text body" font-size="15">web-apps/</text>
+    <text x="530" y="230" class="terminal-text muted" font-size="13">React frontends, Node/Express APIs</text>
 
     <text x="530" y="286" class="terminal-text prompt" font-size="15">$ status</text>
     <text x="530" y="318" class="terminal-text body" font-size="15">building, testing, documenting</text>
