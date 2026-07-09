@@ -63,3 +63,7 @@ Git | Linux | VS Code | GitHub | React | Node.js | Express | Vite | SwiftUI | Ma
 
 - GitHub: [cnrwxlsn](https://github.com/cnrwxlsn)
 - Project context: See pinned repositories below
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="Connor Wilson profile footer status strip" width="900">
+</p>

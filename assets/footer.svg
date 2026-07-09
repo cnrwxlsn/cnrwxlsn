@@ -1,0 +1,89 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">profile footer</title>
+  <desc id="desc">A slim terminal-style status footer showing active work areas: map alerts, web APIs, systems tooling, and blue-team notes.</desc>
+
+  <defs>
+    <linearGradient id="footerBackground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="52%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="footerPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <filter id="footerGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .terminal-text { font-family: Consolas, Monaco, monospace; }
+      .prompt { fill: #38bdf8; }
+      .muted { fill: #94a3b8; }
+      .body { fill: #cbd5e1; }
+      .strong { fill: #f8fafc; }
+      .good { fill: #22c55e; }
+      .purple { fill: #a78bfa; }
+    </style>
+  </defs>
+
+  <!-- Footer shell -->
+  <rect width="900" height="140" rx="22" fill="url(#footerBackground)"/>
+  <rect x="26" y="22" width="848" height="96" rx="14" fill="url(#footerPanel)" stroke="#1e293b" stroke-width="2"/>
+  <line x1="48" y1="66" x2="852" y2="66" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Terminal status line -->
+  <text x="54" y="50" class="terminal-text prompt" font-size="15">connor@github:~$ tail -f work.log</text>
+  <rect x="372" y="37" width="5" height="15" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Work status cells -->
+  <g id="status-cells" transform="translate(54 88)">
+    <circle cx="0" cy="-4" r="5" fill="#22c55e" filter="url(#footerGlow)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="0" class="terminal-text body" font-size="13">map-alerts</text>
+    <text x="112" y="0" class="terminal-text good" font-size="13">online</text>
+
+    <circle cx="216" cy="-4" r="5" fill="#38bdf8" filter="url(#footerGlow)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="232" y="0" class="terminal-text body" font-size="13">web-api</text>
+    <text x="300" y="0" class="terminal-text prompt" font-size="13">clean</text>
+
+    <circle cx="402" cy="-4" r="5" fill="#a78bfa" filter="url(#footerGlow)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="418" y="0" class="terminal-text body" font-size="13">systems-cli</text>
+    <text x="528" y="0" class="terminal-text purple" font-size="13">passing</text>
+
+    <circle cx="648" cy="-4" r="5" fill="#94a3b8" filter="url(#footerGlow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="664" y="0" class="terminal-text body" font-size="13">lab-notes</text>
+    <text x="758" y="0" class="terminal-text muted" font-size="13">syncing</text>
+  </g>
+
+  <!-- Lightweight packet trace -->
+  <g id="packet-trace" transform="translate(530 44)">
+    <path d="M0 0 C48 -22 92 22 142 0 S236 -16 300 0" fill="none" stroke="#334155" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="#22c55e" opacity="0.9"/>
+    <circle cx="142" cy="0" r="4" fill="#38bdf8" opacity="0.9"/>
+    <circle cx="300" cy="0" r="4" fill="#a78bfa" opacity="0.9"/>
+    <circle r="3.5" fill="#f8fafc" filter="url(#footerGlow)">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M0 0 C48 -22 92 22 142 0 S236 -16 300 0"/>
+    </circle>
+  </g>
+
+  <!-- Subtle scanline -->
+  <rect x="26" y="22" width="848" height="18" fill="#38bdf8" opacity="0.035">
+    <animate attributeName="y" values="22;100;22" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
