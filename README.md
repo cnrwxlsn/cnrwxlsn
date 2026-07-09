@@ -23,14 +23,24 @@ I'm Connor Wilson, a Computer Science student interested in cybersecurity, syste
 
 My work leans practical: readable code, useful automation, observability, and defensive thinking.
 
-## Work Areas
+```yaml
+focus: practical security + software engineering
+builds: automation, mobile tools, web apps, systems utilities
+values: readable code, repeatable workflows, defensive thinking
+```
 
-- **Mobile mapping** - SwiftUI, MapKit, CoreLocation, local data, proximity checks, alerts, and privacy-minded logging.
-- **Full-stack web** - React/Vite interfaces backed by Node.js and Express APIs.
-- **Systems tooling** - Unix-style command-line utilities using processes, pipes, compression, and threaded execution.
-- **Data-backed apps** - C#/.NET projects with entity models, migrations, and SQL-backed storage.
-- **Browser automation** - Python scripts for repeatable browser workflows, testing helpers, and cleanup tasks.
-- **Blue-team labs** - Alert logic, behavior notes, triage practice, and incident workflow exercises.
+## Featured Systems
+
+- **mobile-map-app** - SwiftUI/MapKit location alerts and local-first logging.
+- **web-apps** - React/Vite frontends backed by Node.js and Express APIs.
+- **systems-tools** - Unix-style tooling, process workflows, threading, and compression.
+- **blue-team-labs** - Triage notes, alert logic, behavior review, and response practice.
+
+## Currently Building
+
+- SwiftUI map tooling with local GPS alerting.
+- Automation scripts for cleanup, testing, and repeatable workflows.
+- Defensive analysis notes around triage, alert quality, and response workflows.
 
 ## Current Interests
 

@@ -105,7 +105,7 @@
   <!-- Monitoring dashboard shell -->
   <g id="monitoring-dashboard" transform="translate(36 470)">
     <rect x="0" y="0" width="828" height="140" rx="12" fill="url(#panelGradient)" stroke="#1e293b" stroke-width="2"/>
-    <text x="20" y="30" class="terminal-text muted" font-size="13">live_monitor</text>
+    <text x="20" y="30" class="terminal-text muted" font-size="13">live_monitor.sh</text>
     <line x1="20" y1="42" x2="808" y2="42" stroke="#1e293b" stroke-width="2"/>
 
     <!-- Network graph with animated packets -->
@@ -122,15 +122,30 @@
       <line x1="214" y1="24" x2="252" y2="8" stroke="#334155" stroke-width="2"/>
       <line x1="214" y1="24" x2="252" y2="46" stroke="#334155" stroke-width="2"/>
       <line x1="252" y1="8" x2="252" y2="46" stroke="#334155" stroke-width="2"/>
+      <line x1="58" y1="44" x2="30" y2="28" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
+      <line x1="88" y1="22" x2="70" y2="4" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
+      <line x1="148" y1="4" x2="176" y2="-10" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
+      <line x1="146" y1="48" x2="128" y2="66" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
+      <line x1="252" y1="8" x2="276" y2="-6" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
+      <line x1="252" y1="46" x2="278" y2="60" stroke="#334155" stroke-width="1.5" opacity="0.75"/>
 
-      <circle cx="58" cy="44" r="6" fill="#64748b" filter="url(#softGlow)">
+      <circle cx="58" cy="44" r="6" fill="#22c55e" filter="url(#softGlow)">
         <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="88" cy="22" r="6" fill="#38bdf8" filter="url(#softGlow)">
+      <circle cx="30" cy="28" r="4" fill="#94a3b8" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="88" cy="22" r="6" fill="#64748b" filter="url(#softGlow)">
         <animate attributeName="opacity" values="0.45;1;0.45" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="4" r="4" fill="#38bdf8" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="2.4s" repeatCount="indefinite"/>
       </circle>
       <circle cx="148" cy="4" r="6" fill="#a78bfa" filter="url(#softGlow)">
         <animate attributeName="opacity" values="1;0.45;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="176" cy="-10" r="4" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="2.8s" repeatCount="indefinite"/>
       </circle>
       <circle cx="214" cy="24" r="6" fill="#22c55e" filter="url(#softGlow)">
         <animate attributeName="opacity" values="0.45;1;0.45" dur="2.3s" repeatCount="indefinite"/>
@@ -138,11 +153,20 @@
       <circle cx="146" cy="48" r="6" fill="#38bdf8" filter="url(#softGlow)">
         <animate attributeName="opacity" values="1;0.45;1" dur="2.5s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="128" cy="66" r="4" fill="#94a3b8" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="3s" repeatCount="indefinite"/>
+      </circle>
       <circle cx="252" cy="8" r="6" fill="#a78bfa" filter="url(#softGlow)">
         <animate attributeName="opacity" values="0.45;1;0.45" dur="2.7s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="276" cy="-6" r="4" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
       <circle cx="252" cy="46" r="6" fill="#94a3b8" filter="url(#softGlow)">
         <animate attributeName="opacity" values="1;0.45;1" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="278" cy="60" r="4" fill="#64748b" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;0.85;0.35" dur="3.4s" repeatCount="indefinite"/>
       </circle>
 
       <circle r="3.5" fill="#f8fafc" filter="url(#softGlow)">
@@ -188,9 +212,9 @@
     <!-- Activity log -->
     <g id="activity-log" transform="translate(700 62)">
       <text x="0" y="0" class="terminal-text body" font-size="12">LOG</text>
-      <text x="0" y="24" class="terminal-text muted" font-size="12">[ok] ssh baseline</text>
-      <text x="0" y="44" class="terminal-text good" font-size="12">[ok] auth review</text>
-      <text x="0" y="64" class="terminal-text muted" font-size="12">[ok] build clean</text>
+      <text x="0" y="24" class="terminal-text muted" font-size="12">[ok] map-alerts</text>
+      <text x="0" y="44" class="terminal-text good" font-size="12">[ok] web-api</text>
+      <text x="0" y="64" class="terminal-text muted" font-size="12">[ok] systems-cli</text>
 
       <rect x="-4" y="10" width="128" height="17" rx="3" fill="#38bdf8" opacity="0.05">
         <animate attributeName="y" values="10;30;50;10" dur="4.5s" repeatCount="indefinite"/>
