@@ -27,7 +27,7 @@ I'm especially interested in radio and wireless systems, network traffic, Linux 
 
 - **security-research** - Radio and wireless systems, traffic analysis, Linux security labs, malware analysis, and cryptography.
 - **ai-workflows** - Tool-using agents and automated multi-step workflows.
-- **mobile-map-app** - SwiftUI/MapKit location alerts and local-first logging.
+- **flock-camera-tracker** - iOS map for tracking Flock ALPR and speed-camera locations.
 - **web-and-data-apps** - React/Node APIs and C#/SQL data applications.
 
 ## Currently Studying and Building
@@ -35,7 +35,7 @@ I'm especially interested in radio and wireless systems, network traffic, Linux 
 - Learning more about radio systems and how wireless traffic works.
 - Dissecting packet captures to trace protocol behavior, spot anomalies, and separate evidence from assumptions.
 - Working through Linux security, malware analysis, incident response, and cryptography labs.
-- Building SwiftUI location tools, web APIs, and small automations.
+- Building iOS mapping tools, web APIs, and small automations.
 
 ## Current Interests
 

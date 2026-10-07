@@ -82,8 +82,8 @@
     <text x="0" y="346" class="terminal-text good" font-size="15">&gt; incident response and cryptography</text>
 
     <text x="530" y="0" class="terminal-text prompt" font-size="15">$ projects</text>
-    <text x="530" y="34" class="terminal-text body" font-size="15">mobile-map-app</text>
-    <text x="530" y="56" class="terminal-text muted" font-size="13">SwiftUI, MapKit, local GPS alerts</text>
+    <text x="530" y="34" class="terminal-text body" font-size="15">flock-camera-tracker</text>
+    <text x="530" y="56" class="terminal-text muted" font-size="13">iOS map for ALPR and speed cameras</text>
 
     <text x="530" y="92" class="terminal-text body" font-size="15">security-research</text>
     <text x="530" y="114" class="terminal-text muted" font-size="13">Radio, wireless, Linux, crypto labs</text>
