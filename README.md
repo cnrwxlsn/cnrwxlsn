@@ -19,45 +19,37 @@
 
 ## About
 
-I'm Connor Wilson, a Computer Science student interested in cybersecurity, systems, and software engineering. I like projects that turn messy workflows into clear, repeatable tools.
+Hey, I'm Connor. I'm a Computer Science student leaning more into cybersecurity and security research while still building software.
 
-My work leans practical: readable code, useful automation, observability, and defensive thinking.
+I'm especially interested in radio and wireless systems, network traffic, Linux security, malware analysis, incident response, and cryptography. I like learning by testing things myself, seeing how they work, and writing down what I find.
 
-```yaml
-focus: practical security + software engineering
-builds: automation, mobile tools, web apps, systems utilities
-values: readable code, repeatable workflows, defensive thinking
-```
+## Featured Work
 
-## Featured Systems
-
+- **security-research** - Radio and wireless systems, traffic analysis, Linux security labs, malware analysis, and cryptography.
+- **ai-workflows** - Tool-using agents and automated multi-step workflows.
 - **mobile-map-app** - SwiftUI/MapKit location alerts and local-first logging.
-- **web-apps** - React/Vite frontends backed by Node.js and Express APIs.
-- **systems-tools** - Unix-style tooling, process workflows, threading, and compression.
-- **blue-team-labs** - Triage notes, alert logic, behavior review, and response practice.
+- **web-and-data-apps** - React/Node APIs and C#/SQL data applications.
 
-## Currently Building
+## Currently Studying and Building
 
-- SwiftUI map tooling with local GPS alerting.
-- Automation scripts for cleanup, testing, and repeatable workflows.
-- Defensive analysis notes around triage, alert quality, and response workflows.
+- Learning more about radio systems and how wireless traffic works.
+- Dissecting packet captures to trace protocol behavior, spot anomalies, and separate evidence from assumptions.
+- Working through Linux security, malware analysis, incident response, and cryptography labs.
+- Building SwiftUI location tools, web APIs, and small automations.
 
 ## Current Interests
 
 <p>
-  <img src="https://img.shields.io/badge/-Detection%20Engineering-38BDF8?style=flat-square" alt="Detection Engineering">
-  <img src="https://img.shields.io/badge/-Blue%20Team-22C55E?style=flat-square" alt="Blue Team Security">
+  <img src="https://img.shields.io/badge/-Security%20Research-38BDF8?style=flat-square" alt="Security Research">
+  <img src="https://img.shields.io/badge/-RF%20Systems-A78BFA?style=flat-square" alt="Radio-Frequency Systems">
+  <img src="https://img.shields.io/badge/-Wireless%20Security-22C55E?style=flat-square" alt="Wireless Security">
+  <img src="https://img.shields.io/badge/-Network%20Traffic%20Analysis-64748B?style=flat-square" alt="Network Traffic Analysis">
+  <img src="https://img.shields.io/badge/-Linux%20Security-A78BFA?style=flat-square" alt="Linux Security">
   <img src="https://img.shields.io/badge/-Incident%20Response-64748B?style=flat-square" alt="Incident Response">
-  <img src="https://img.shields.io/badge/-Malware%20Behavior-A78BFA?style=flat-square" alt="Malware Behavior Analysis">
-  <img src="https://img.shields.io/badge/-Secure%20Code-22C55E?style=flat-square" alt="Secure Software Development">
-  <img src="https://img.shields.io/badge/-Linux%20Systems-94A3B8?style=flat-square" alt="Linux Systems">
-  <img src="https://img.shields.io/badge/-Networking-38BDF8?style=flat-square" alt="Networking">
-  <img src="https://img.shields.io/badge/-Cloud%20Security-A78BFA?style=flat-square" alt="Cloud Security">
+  <img src="https://img.shields.io/badge/-Malware%20Analysis-A78BFA?style=flat-square" alt="Malware Analysis">
+  <img src="https://img.shields.io/badge/-Applied%20Cryptography-22C55E?style=flat-square" alt="Applied Cryptography">
+  <img src="https://img.shields.io/badge/-Secure%20Software-94A3B8?style=flat-square" alt="Secure Software Development">
 </p>
-
-## Technologies
-
-Git | Linux | VS Code | GitHub | React | Node.js | Express | Vite | SwiftUI | MapKit | CoreLocation | Playwright | EF Core | SQL Server
 
 ## Connect
 

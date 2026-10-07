@@ -1,6 +1,6 @@
 <svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">profile footer</title>
-  <desc id="desc">A slim terminal-style status footer showing active work areas: map alerts, web APIs, systems tooling, and blue-team notes.</desc>
+  <desc id="desc">A slim terminal-style status footer showing active work areas: map alerts, web APIs, AI agent workflows, and security research notes.</desc>
 
   <defs>
     <linearGradient id="footerBackground" x1="0" y1="0" x2="1" y2="1">
@@ -61,14 +61,14 @@
     <circle cx="402" cy="-4" r="5" fill="#a78bfa" filter="url(#footerGlow)">
       <animate attributeName="opacity" values="0.45;1;0.45" dur="3.1s" repeatCount="indefinite"/>
     </circle>
-    <text x="418" y="0" class="terminal-text body" font-size="13">systems-cli</text>
-    <text x="528" y="0" class="terminal-text purple" font-size="13">passing</text>
+    <text x="418" y="0" class="terminal-text body" font-size="13">rf-analysis</text>
+    <text x="528" y="0" class="terminal-text purple" font-size="13">building</text>
 
     <circle cx="648" cy="-4" r="5" fill="#94a3b8" filter="url(#footerGlow)">
       <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="664" y="0" class="terminal-text body" font-size="13">analysis-log</text>
-    <text x="758" y="0" class="terminal-text muted" font-size="13">syncing</text>
+    <text x="664" y="0" class="terminal-text body" font-size="13">research-log</text>
+    <text x="758" y="0" class="terminal-text muted" font-size="13">writing</text>
   </g>
 
   <!-- Lightweight packet trace -->
